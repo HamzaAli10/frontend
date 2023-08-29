@@ -1,0 +1,35 @@
+.users-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    width: 15%;
+  }
+  
+  .member-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .member-list li {
+    margin-bottom: 20px;
+    background-color: rgb(184, 187, 190);
+    padding: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  /* Add more styles as needed */
+  .chat-container{
+    float: left;
+  }
+  
